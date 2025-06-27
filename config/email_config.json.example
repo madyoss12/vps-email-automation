@@ -1,0 +1,21 @@
+{
+  "domains": [
+    "example.com",
+    "test-domain.org"
+  ],
+  "smtp_configs": {
+    "default": {
+      "smtp_host": "mail.{domain}",
+      "smtp_port": 587,
+      "smtp_security": "STARTTLS",
+      "imap_host": "mail.{domain}",
+      "imap_port": 993,
+      "imap_security": "SSL"
+    }
+  },
+  "email_settings": {
+    "emails_per_domain": 3,
+    "password_length": 16,
+    "use_random_names": true
+  }
+}

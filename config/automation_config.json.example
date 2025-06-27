@@ -1,0 +1,31 @@
+{
+  "vps_provider": {
+    "name": "digitalocean",
+    "api_token": "YOUR_DO_API_TOKEN",
+    "ssh_key_id": "YOUR_SSH_KEY_ID",
+    "region": "fra1",
+    "size": "s-2vcpu-4gb"
+  },
+  "dns_provider": {
+    "name": "cloudflare",
+    "api_token": "YOUR_CF_API_TOKEN",
+    "zone_id": "YOUR_ZONE_ID"
+  },
+  "domains": [
+    "example.com",
+    "test-domain.org"
+  ],
+  "email_settings": {
+    "emails_per_domain": 3,
+    "admin_email": "admin@yourdomain.com"
+  },
+  "server_settings": {
+    "hostname": "mail.yourdomain.com",
+    "mysql_root_password": "generate_random",
+    "mail_db_password": "generate_random"
+  },
+  "monitoring": {
+    "webhook_url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+    "notification_email": "alerts@yourdomain.com"
+  }
+}
