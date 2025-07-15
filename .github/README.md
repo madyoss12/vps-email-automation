@@ -95,9 +95,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- 📧 Email: support@your-domain.com
-- 💬 Discord: [Join our server](https://discord.gg/your-invite)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/vps-email-automation/issues)
+- 📧 Email: support@finaleads.com
+
 
 ---
 
